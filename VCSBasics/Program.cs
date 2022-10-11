@@ -1,12 +1,11 @@
 ﻿using System;
 
-namespace VCSBasics
+namespace VCSBasics;
+
+record Program
 {
-    record Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        Console.WriteLine("Hello World!");
     }
 }
